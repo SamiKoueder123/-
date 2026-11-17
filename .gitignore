@@ -1,0 +1,14 @@
+# Studio place files and Rojo builds
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+*.rbxm
+*.rbxmx
+!assets/**/*.rbxm
+!assets/**/*.rbxmx
+sourcemap.json
+# Editors / OS
+.vscode/settings.json
+.DS_Store
+Thumbs.db

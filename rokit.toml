@@ -1,0 +1,3 @@
+# Toolchain for this project. Run `rokit install` once to get these tools.
+[tools]
+rojo = "rojo-rbx/rojo@7.4.4"
