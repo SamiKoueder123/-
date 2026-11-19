@@ -552,7 +552,7 @@ function Lobby.Build(parent, origin, spawnCount)
 	local function roofUnits(s, z1, z2, y, depth)
 		local xf = s * HX
 		for i = 1, rng:NextInteger(1, 2) do
-			local w = rng:NextNumber(3, 6)
+			local w = math.min(rng:NextNumber(3, 6), (z2 - z1) / 2 - 0.5)
 			local zc = rng:NextNumber(z1 + w, z2 - w)
 			local dx = rng:NextNumber(2, depth - 2)
 			local xc = xf - s * dx
